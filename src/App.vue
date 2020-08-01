@@ -1,15 +1,15 @@
 <template>
   <h1>hello</h1>
-  <ahong/>
+  <router-link to="/">1111</router-link>
+    <router-link to="/2">2222</router-link>
+  <hr/>
+  <router-view />
 </template>
 
 <script>
-import ahong from './components/ahong.vue'
 
 export default {
   name: 'App',
-  components: {
-    ahong
-  }
+ 
 }
 </script>
