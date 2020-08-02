@@ -4,12 +4,17 @@
     <router-link to="/2">2222</router-link>
   <hr/>
   <router-view />
+  <h1>{{value}}</h1>
 </template>
 
 <script>
 
 export default {
   name: 'App',
+  setup(){
+    const value = '000'
+    return {value}
+  }
  
 }
 </script>
